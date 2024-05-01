@@ -1,0 +1,28 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "latest",
+    "@tsparticles/confetti": "^3.3.0",
+    "@tsparticles/engine": "^3.3.0",
+    "@tsparticles/vue3": "^3.0.1",
+    "@vite-pwa/nuxt": "^0.7.0",
+    "canvas-confetti": "^1.9.3",
+    "js-confetti": "^0.12.0",
+    "nuxt": "^3.11.2",
+    "vue": "^3.4.21",
+    "vue-confetti": "^2.3.0",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "nuxt-primevue": "^0.3.1"
+  }
+}
